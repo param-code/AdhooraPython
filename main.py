@@ -9,3 +9,7 @@ Now
 '''
 print("Hello" , end = " ")
 print("World")
+i = 10
+s = type(i)
+if s == int:
+    print(s)
