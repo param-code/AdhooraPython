@@ -36,10 +36,10 @@ def prompt():
         with open("HarryF.txt","r") as f:
             f.read()
     elif Job == 2 and name == "hamad" and Action == 2:
-        with open("HamadF.txt","a") as f:
+        with open("HamadF.txt","r") as f:
             f.read()
     elif Job == 2 and name == "rohan" and Action == 2:
-        with open("RohanF.txt","a") as f:
+        with open("RohanF.txt","r") as f:
             f.read()
 
 while True:
